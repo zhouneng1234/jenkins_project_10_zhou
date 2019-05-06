@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "itheima-2.local",
+    "children" : [ {
+      "name" : "17910-MainThread",
+      "children" : [ {
+        "name" : "test_login.TestLogin.test_login1",
+        "uid" : "6f14293926cb5972",
+        "parentUid" : "93a038680eac982d1e443d5e88448c8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1557112465023,
+          "stop" : 1557112465031,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login.TestLogin.test_login3",
+        "uid" : "d1d5aa09ec556155",
+        "parentUid" : "93a038680eac982d1e443d5e88448c8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1557112465140,
+          "stop" : 1557112465141,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login.TestLogin.test_login2",
+        "uid" : "4b2d837e85fdd2e0",
+        "parentUid" : "93a038680eac982d1e443d5e88448c8b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1557112465054,
+          "stop" : 1557112465139,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "93a038680eac982d1e443d5e88448c8b"
+    } ],
+    "uid" : "4568c7e2a4863fbae731977a51c325bd"
+  } ]
+}

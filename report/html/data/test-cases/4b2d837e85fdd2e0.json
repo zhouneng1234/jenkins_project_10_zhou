@@ -1,0 +1,66 @@
+{
+  "uid" : "4b2d837e85fdd2e0",
+  "name" : "test_login.TestLogin.test_login2",
+  "fullName" : "scripts.test_login.TestLogin.test_login2",
+  "historyId" : "43f26af7c1b05e68d621a568daae0a6b",
+  "time" : {
+    "start" : 1557112465054,
+    "stop" : 1557112465139,
+    "duration" : 85
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <scripts.test_login.TestLogin object at 0x1084c2518>\n\n    def test_login2(self):\n        print(\"test_login2\")\n>       assert 0\nE       assert 0\n\nscripts/test_login.py:9: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "itheima-2.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "17910-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_login.TestLogin.test_login2"
+  }, {
+    "name" : "package",
+    "value" : "scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4b2d837e85fdd2e0.json",
+  "parameterValues" : [ ]
+}

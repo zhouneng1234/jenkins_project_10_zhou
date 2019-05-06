@@ -1,0 +1,53 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1557112465023" stop="1557112465141">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1557112465023" status="passed" stop="1557112465031">
+      <name>test_login.TestLogin.test_login1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17910-MainThread"/>
+        <label name="host" value="itheima-2.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1557112465054" status="failed" stop="1557112465139">
+      <name>test_login.TestLogin.test_login2</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_login.TestLogin object at 0x1084c2518&gt;
+
+    def test_login2(self):
+        print("test_login2")
+&gt;       assert 0
+E       assert 0
+
+scripts/test_login.py:9: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17910-MainThread"/>
+        <label name="host" value="itheima-2.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1557112465140" status="passed" stop="1557112465141">
+      <name>test_login.TestLogin.test_login3</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="17910-MainThread"/>
+        <label name="host" value="itheima-2.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
